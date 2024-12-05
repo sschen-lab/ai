@@ -301,7 +301,7 @@ function copy(dest, source) {
       
     
         add_paper("Viscoelastic Necking Dynamics Between Attractive Microgels",
-            "S Chen, E Pirhadi, X Yong,",
+            "S Chen, E Pirhadi, X Yong",
             "Journal of Colloid and Interface Science 618.283-289, 2022",
             "https://doi.org/10.1016/j.jcis.2022.03.048",
             )
@@ -312,7 +312,7 @@ function copy(dest, source) {
 
     
         add_paper("Elastocapillary interactions of thermoresponsive microgels across the volume phase transition temperatures",
-            "S Chen, X Yong,",
+            "S Chen, X Yong",
             "Journal of Colloid and Interface Science 584, 275-280, 2021",
             "https://www.sciencedirect.com/science/article/pii/S0021979720312741",
             )
@@ -323,408 +323,42 @@ function copy(dest, source) {
         document.write("<h1>2020</h1>")
         document.write("<ul>")
 
-
-        add_paper("Towards Robust Representation Learning and Beyond",
-            "Cihang Xie",
-            "Ph.D. Dissertation, Johns Hopkins University",
-            "https://jscholarship.library.jhu.edu/handle/1774.2/63790",
-            "@phdthesis{xie2020phd,<br>" +
-             "&nbsp;&nbsp;&nbsp;title   = {Towards Robust Representation Learning and Beyond},<br>" +
-             "&nbsp;&nbsp;&nbsp;author  = {Xie, Cihang},<br>" +
-             "&nbsp;&nbsp;&nbsp;year    = {2020},<br>" +
-             "&nbsp;&nbsp;&nbsp;school  = {The Johns Hopkins University}<br>}",
-            null,
-            "https://jscholarship.library.jhu.edu/handle/1774.2/63790"
-        )
-
-        add_paper("Medical Machine Intelligence: Data-efficiency and Knowledge-awareness",
-            "Yuyin Zhou",
-            "Ph.D. Dissertation, Johns Hopkins University",
-            "https://jscholarship.library.jhu.edu/handle/1774.2/63779",
-            "@phdthesis{zhou2020medical,<br>" +
-             "&nbsp;&nbsp;&nbsp;title     = {Medical Machine Intelligence: Data-Efficiency and Knowledge-Awareness},<br>" +
-             "&nbsp;&nbsp;&nbsp;author    = {Zhou, Yuyin},<br>" +
-             "&nbsp;&nbsp;&nbsp;year      = {2020},<br>" +
-             "&nbsp;&nbsp;&nbsp;school    = {The Johns Hopkins University}<br>}",
-            null,
-            "https://jscholarship.library.jhu.edu/handle/1774.2/63779"
-        )
+        add_paper("Homogeneous gelation leads to nanowire forests in the transition between electrospray and electrospinning",
+            "L Lei, S Chen, CJ Nachtigal, TF Moy, X Yong, JP Singer",
+            "Materials horizons 7(10).2643-2650, 2020",
+            "https://pubs.rsc.org/en/content/articlehtml/2020/mh/d0mh00872a",
+            )
 
 
+  
+        add_paper("Nanoparticle assembly modulated by polymer chain conformation in composite materials",
+            "S Chen, E Olson, S Jiang, X Yong",
+            "Nanoscale 12 (27).14560-14572, 2020",
+            "https://pubs.rsc.org/en/content/articlehtml/2020/nr/d0nr01740j",
+            )
 
-
-        add_paper("PatchAttack: A Black-box Texture-based Attack with Reinforcement Learning",
-            "Chenglin Yang, Adam Kortylewski, Cihang Xie, Yinzhi Cao, Alan Yuille",
-            "ECCV, 2020",
-            "https://arxiv.org/abs/2004.05682",
-            "@inproceedings{yang2020patchattack,<br>" +
-             "&nbsp;&nbsp;&nbsp;title     = {PatchAttack: A Black-box Texture-based Attack with Reinforcement Learning},<br>" +
-             "&nbsp;&nbsp;&nbsp;author    = {Chenglin Yang, Adam Kortylewski, Cihang Xie, Yinzhi Cao and Yuille, Alan},<br>" +
-             "&nbsp;&nbsp;&nbsp;booktitle = {ECCV},<br>" +
-             "&nbsp;&nbsp;&nbsp;year      = {2020}<br>}",
-            "Patch-based attacks introduce a perceptible but localized change to the input that induces misclassification. A limitation of current patch-based black-box attacks is that they perform poorly for targeted attacks, and even for the less challenging non-targeted scenarios, they require a large number of queries. Our proposed PatchAttack is query efficient and can break models for both targeted and non-targeted attacks. PatchAttack induces misclassifications by superimposing small textured patches on the input image. We parametrize the appearance of these patches by a dictionary of class-specific textures. This texture dictionary is learned by clustering Gram matrices of feature activations from a VGG backbone. PatchAttack optimizes the position and texture parameters of each patch using reinforcement learning. Our experiments show that PatchAttack achieves >99% success rate on ImageNet for a wide range of architectures, while only manipulating 3% of the image for non-targeted attacks and 10% on average for targeted attacks. Furthermore, we show that PatchAttack circumvents state-of-the-art adversarial defense methods successfully. The code is publicly available here: https://github.com/Chenglin-Yang/PatchAttack.",
-            "https://arxiv.org/abs/2004.05682",
-            "https://github.com/Chenglin-Yang/PatchAttack"
-        )
-
-        add_paper("Regional Homogeneity: Towards Learning Transferable Universal Adversarial Perturbations Against Defenses",
-            "Yingwei Li, Song Bai, Cihang Xie, Zhenyu Liao, Xiaohui Shen, Alan Yuille",
-            "ECCV, 2020",
-            "https://arxiv.org/abs/1904.00979",
-            "@inproceedings{li2019regional,<br>" +
-             "&nbsp;&nbsp;&nbsp;title     = {Regional Homogeneity: Towards Learning Transferable Universal Adversarial Perturbations Against Defenses},<br>" +
-             "&nbsp;&nbsp;&nbsp;author    = {Li, Yingwei and Bai, Song and Xie, Cihang and Liao, Zhenyu and Shen, Xiaohui and Yuille, Alan},<br>" +
-             "&nbsp;&nbsp;&nbsp;booktitle = {ECCV},<br>" +
-             "&nbsp;&nbsp;&nbsp;year      = {2020}<br>}",
-            "This paper focuses on learning transferable adversarial examples specifically against defense models (models to defense adversarial attacks). In particular, we show that a simple universal perturbation can fool a series of state-of-the-art defenses.Adversarial examples generated by existing attacks are generally hard to transfer to defense models. We observe the property of regional homogeneity in adversarial perturbations and suggest that the defenses are less robust to regionally homogeneous perturbations. Therefore, we propose an effective transforming paradigm and a customized gradient transformer module to transform existing perturbations into regionally homogeneous ones. Without explicitly forcing the perturbations to be universal, we observe that a well-trained gradient transformer module tends to output input-independent gradients (hence universal) benefiting from the under-fitting phenomenon. Thorough experiments demonstrate that our work significantly outperforms the prior art attacking algorithms (either image-dependent or universal ones) by an average improvement of 14.0% when attacking 9 defenses in the transfer-based attack setting. In addition to the cross-model transferability, we also verify that regionally homogeneous perturbations can well transfer across different vision tasks (attacking with the semantic segmentation task and testing on the object detection task). The code is available here: https://github.com/LiYingwei/Regional-Homogeneity.",
-            "https://arxiv.org/abs/1904.00979",
-            "https://github.com/LiYingwei/Regional-Homogeneity"
-        )
-
-        add_paper("Adversarial Examples Improve Image Recognition",
-            "Cihang Xie, Mingxing Tan, Boqing Gong, Jiang Wang, Alan Yuille, Quoc Le",
-            "CVPR, 2020",
-            "https://arxiv.org/abs/1911.09665",
-            "@inproceedings{xie2020adversarial,<br>" +
-             "&nbsp;&nbsp;&nbsp;title     = {Adversarial Examples Improve Image Recognition},<br>" +
-             "&nbsp;&nbsp;&nbsp;author    = {Xie, Cihang and Tan, Mingxing and Gong, Boqing and Wang, Jiang and Yuille, Alan and Le, Quoc V},<br>" +
-             "&nbsp;&nbsp;&nbsp;booktitle = {CVPR},<br>" +
-             "&nbsp;&nbsp;&nbsp;year      = {2020}<br>}",
-            "Adversarial examples are commonly viewed as a threat to ConvNets. Here we present an opposite perspective: adversarial examples can be used to improve image recognition models if harnessed in the right manner. We propose AdvProp, an enhanced adversarial training scheme which treats adversarial examples as additional examples, to prevent overfitting. Key to our method is the usage of a separate auxiliary batch norm for adversarial examples, as they have different underlying distributions to normal examples. We show that AdvProp improves a wide range of models on various image recognition tasks and performs better when the models are bigger. For instance, by applying AdvProp to the latest EfficientNet-B7 [28] on ImageNet, we achieve significant improvements on ImageNet (+0.7%), ImageNet-C (+6.5%), ImageNet-A (+7.0%), Stylized-ImageNet (+4.8%). With an enhanced EfficientNet-B8, our method achieves the state-of-the-art 85.5% ImageNet top-1 accuracy without extra data. This result even surpasses the best model in [20] which is trained with 3.5B Instagram images ( 3000X more than ImageNet) and 9.4X more parameters. Code and models will be made publicly available.",
-            "https://arxiv.org/abs/1911.09665",
-            "https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet",
-            "https://medium.com/syncedreview/google-johns-hopkins-university-can-adversarial-examples-improve-image-recognition-bcb7254e2d8",
-        )
-
-        add_paper("Neural Architecture Search for Lightweight Non-Local Networks",
-            "Yingwei Li, Xiaojie Jin, Jieru Mei, Xiaochen Lian, Linjie Yang, Cihang Xie, Qihang Yu, Yuyin Zhou, Song Bai, Alan Yuille",
-            "CVPR, 2020",
-            "https://arxiv.org/abs/2004.01961",
-            "@inproceedings{li2020nas,<br>" +
-             "&nbsp;&nbsp;&nbsp;title     = {Neural Architecture Search for Lightweight Non-local Networks},<br>" +
-             "&nbsp;&nbsp;&nbsp;author    = {Li, Yingwei and Jin, Xiaojie and Mei, Jieru and Lian, Xiaochen and Yang, Linjie and Xie, Cihang and Yu, Qihang and Zhou, Yuyin and Bai, Song and Yuille, Alan},<br>" +
-             "&nbsp;&nbsp;&nbsp;booktitle = {CVPR},<br>" +
-             "&nbsp;&nbsp;&nbsp;year      = {2020}<br>}",
-            "Non-Local (NL) blocks have been widely studied in various vision tasks. However, it has been rarely explored to embed the NL blocks in mobile neural networks, mainly due to the following challenges: 1) NL blocks generally have heavy computation cost which makes it difficult to be applied in applications where computational resources are limited, and 2) it is an open problem to discover an optimal configuration to embed NL blocks into mobile neural networks. We propose AutoNL to overcome the above two obstacles. Firstly, we propose a Lightweight Non-Local (LightNL) block by squeezing the transformation operations and incorporating compact features. With the novel design choices, the proposed LightNL block is 400 times computationally cheaper than its conventional counterpart without sacrificing the performance. Secondly, by relaxing the structure of the LightNL block to be differentiable during training, we propose an efficient neural architecture search algorithm to learn an optimal configuration of LightNL blocks in an end-to-end manner. Notably, using only 32 GPU hours, the searched AutoNL model achieves 77.7% top-1 accuracy on ImageNet under a typical mobile setting (350M FLOPs), significantly outperforming previous mobile models including MobileNetV2 (+5.7%), FBNet (+2.8%) and MnasNet (+2.1%). Code and models are available at https://github.com/LiYingwei/AutoNL.",
-            "https://arxiv.org/abs/2004.01961",
-            "https://github.com/LiYingwei/AutoNL"
-        )
-
-        add_paper("Universal Physical Camouflage Attacks on Object Detectors",
-            "Lifeng Huang, Chengying Gao, Yuyin Zhou, Cihang Xie, Alan Yuille, Changqing Zou, Ning Liu",
-            "CVPR, 2020",
-            "https://arxiv.org/abs/1909.04326",
-            "@inproceedings{Huang2020UPC,<br>" +
-             "&nbsp;&nbsp;&nbsp;title     = {Universal Physical Camouflage Attacks on Object Detectors},<br>" +
-             "&nbsp;&nbsp;&nbsp;author    = {Lifeng Huang and Chengying Gao and Yuyin Zhou and Cihang Xie and Alan Yuille and Changqing Zou and Ning Liu},<br>" +
-             "&nbsp;&nbsp;&nbsp;booktitle = {CVPR},<br>" +
-             "&nbsp;&nbsp;&nbsp;year      = {2020}<br>}",
-            "In this paper, we study physical adversarial attacks on object detectors in the wild. Previous works mostly craft instance-dependent perturbations only for rigid or planar objects. To this end, we propose to learn an adversarial pattern to effectively attack all instances belonging to the same object category, referred to as Universal Physical Camouflage Attack (UPC). Concretely, UPC crafts camouflage by jointly fooling the region proposal network, as well as misleading the classifier and the regressor to output errors. In order to make UPC effective for non-rigid or non-planar objects, we introduce a set of transformations for mimicking deformable properties. We additionally impose optimization constraint to make generated patterns look natural to human observers. To fairly evaluate the effectiveness of different physical-world attacks, we present the first standardized virtual database, AttackScenes, which simulates the real 3D world in a controllable and reproducible environment. Extensive experiments suggest the superiority of our proposed UPC compared with existing physical adversarial attackers not only in virtual environments (AttackScenes), but also in real-world physical environments.",
-            "https://arxiv.org/abs/1909.04326",
-            "https://mesunhlf.github.io/index_physical.html"
-        )
-
-        add_paper("Deep Distance Transform for Tubular Structure Segmentation in CT Scans",
-            "Yan Wang, Xu Wei, Fengze Liu, Jieneng Chen, Yuyin Zhou, Wei Shen, Elliot Fishman Alan Yuille",
-            "CVPR,2020",
-            "https://arxiv.org/abs/1912.03383",
-            "@inproceedings{wang2020deep,<br>" +
-             "&nbsp;&nbsp;&nbsp;title     = {Deep distance transform for tubular structure segmentation in ct scans},<br>" +
-             "&nbsp;&nbsp;&nbsp;author    = {Wang, Yan and Wei, Xu and Liu, Fengze and Chen, Jieneng and Zhou, Yuyin and Shen, Wei and Fishman, Elliot K and Yuille, Alan},<br>" +
-             "&nbsp;&nbsp;&nbsp;booktitle = {CVPR},<br>" +
-             "&nbsp;&nbsp;&nbsp;year      = {2020}<br>}",
-            "Tubular structure segmentation in medical images, e.g., segmenting vessels in CT scans, serves as a vital step in the use of computers to aid in screening early stages of related diseases. But automatic tubular structure segmentation in CT scans is a challenging problem, due to issues such as poor contrast, noise and complicated background. A tubular structure usually has a cylinder-like shape which can be well represented by its skeleton and cross-sectional radii (scales). Inspired by this, we propose a geometry-aware tubular structure segmentation method, Deep Distance Transform (DDT), which combines intuitions from the classical distance transform for skeletonization and modern deep segmentation networks. DDT first learns a multi-task network to predict a segmentation mask for a tubular structure and a distance map. Each value in the map represents the distance from each tubular structure voxel to the tubular structure surface. Then the segmentation mask is refined by leveraging the shape prior reconstructed from the distance map. We apply our DDT on six medical image datasets. Results show that (1) DDT can boost tubular structure segmentation performance significantly (e.g., over 13% DSC improvement for pancreatic duct segmentation), and (2) DDT additionally provides a geometrical measurement for a tubular structure, which is important for clinical diagnosis (e.g., the cross-sectional scale of a pancreatic duct can be an indicator for pancreatic cancer).",
-            "https://arxiv.org/abs/1912.03383"
-        )
-
-
-        add_paper("A multiscale deep learning method for quantitative visualization of traumatic hemoperitoneum at CT: assessment of feasibility and comparison with subjective categorical estimation",
-            "David Dreizin, Yuyin Zhou, Shuhao Fu, Yan Wang, Guang Li, Kathryn Champ, Eliot Siegel, Ze Wang, Tina Chen, Alan Yuille",
-            "Radiology: Artificial Intelligence, 2020",
-            "https://pubmed.ncbi.nlm.nih.gov/33330848",
-            "@article{dreizin2020multiscale,<br>" +
-             "&nbsp;&nbsp;&nbsp;title     = {A multiscale deep learning method for quantitative visualization of traumatic hemoperitoneum at CT: assessment of feasibility and comparison with subjective categorical estimation},<br>" +
-             "&nbsp;&nbsp;&nbsp;author    = {Dreizin, David and Zhou, Yuyin and Fu, Shuhao and Wang, Yan and Li, Guang and Champ, Kathryn and Siegel, Eliot and Wang, Ze and Chen, Tina and Yuille, Alan},<br>" +
-             "&nbsp;&nbsp;&nbsp;journal   = {Radiology: Artificial Intelligence},<br>" +
-             "&nbsp;&nbsp;&nbsp;year      = {2020}<br>}",
-            "To evaluate the feasibility of a multiscale deep learning algorithm for quantitative visualization and measurement of traumatic hemoperitoneum and to compare diagnostic performance for relevant outcomes with categorical estimation.",
-            "https://pubmed.ncbi.nlm.nih.gov/33330848/"
-        )
-
-        add_paper("Adversarial metric attack and defense for person re-identification",
-            "Song Bai, Yingwei Li, Yuyin Zhou, Qizhu Li, Philip HS Torr",
-            "IEEE TPAMI, 2020",
-             "https://arxiv.org/abs/1901.10650",
-            "@article{bai2020adversarial,<br>" +
-             "&nbsp;&nbsp;&nbsp;title     = {Adversarial metric attack and defense for person re-identification},<br>" +
-             "&nbsp;&nbsp;&nbsp;author    = {Bai, Song and Li, Yingwei and Zhou, Yuyin and Li, Qizhu and Torr, Philip HS},<br>" +
-             "&nbsp;&nbsp;&nbsp;journal   = {IEEE Transactions on Pattern Analysis and Machine Intelligence},<br>" +
-             "&nbsp;&nbsp;&nbsp;year      = {2020}<br>}",
-            "Person re-identification (re-ID) has attracted much attention recently due to its great importance in video surveillance. In general, distance metrics used to identify two person images are expected to be robust under various appearance changes. However, our work observes the extreme vulnerability of existing distance metrics to adversarial examples, generated by simply adding human-imperceptible perturbations to person images. Hence, the security danger is dramatically increased when deploying commercial re-ID systems in video surveillance. Although adversarial examples have been extensively applied for classification analysis, it is rarely studied in metric analysis like person re-identification. The most likely reason is the natural gap between the training and testing of re-ID networks, that is, the predictions of a re-ID network cannot be directly used during testing without an effective metric. In this work, we bridge the gap by proposing Adversarial Metric Attack, a parallel methodology to adversarial classification attacks. Comprehensive experiments clearly reveal the adversarial effects in re-ID systems. Meanwhile, we also present an early attempt of training a metric-preserving network, thereby defending the metric against adversarial attacks. At last, by benchmarking various adversarial settings, we expect that our work can facilitate the development of adversarial attack and defense in metric-based applications.",
-            "https://arxiv.org/abs/1901.10650"
-        )
-
-        add_paper("Intriguing Properties of Adversarial Training at Scale",
-            "Cihang Xie, Alan Yuille",
-            "ICLR, 2020",
-            "https://arxiv.org/abs/1906.03787",
-            "@inproceedings{Xie2020intriguing,<br>" +
-             "&nbsp;&nbsp;&nbsp;title     = {Intriguing Properties of Adversarial Training at Scale},<br>" +
-             "&nbsp;&nbsp;&nbsp;author    = {Cihang Xie and Alan Yuille},<br>" +
-             "&nbsp;&nbsp;&nbsp;booktitle = {ICLR},<br>" +
-             "&nbsp;&nbsp;&nbsp;year      = {2020}<br>}",
-            "Adversarial training is one of the main defenses against adversarial attacks. In this paper, we provide the first rigorous study on diagnosing elements of large-scale adversarial training on ImageNet, which reveals two intriguing properties. First, we study the role of normalization. Batch Normalization (BN) is a crucial element for achieving state-of-the-art performance on many vision tasks, but we show it may prevent networks from obtaining strong robustness in adversarial training. One unexpected observation is that, for models trained with BN, simply removing clean images from training data largely boosts adversarial robustness, i.e., 18.3%. We relate this phenomenon to the hypothesis that clean images and adversarial images are drawn from two different domains. This two-domain hypothesis may explain the issue of BNwhentraining with amixtureof cleanandadversarial images, as estimating normalization statistics of this mixture distribution is challenging. Guided by this two-domain hypothesis, we show disentangling the mixture distribution for normalization, i.e., applying separate BNs to clean and adversarial images for statistics estimation, achieves much stronger robustness. Additionally, we find that enforcing BNs to behave consistently at training and testing can further enhance robustness. Second, we study the role of network capacity. We find our so-called “deep” networks are still shallow for the task of adversarial learning. Unlike traditional classification tasks where accuracy is only marginally improved by adding more layers to “deep” networks (e.g., ResNet-152), adversarial training exhibits a much stronger demand on deeper networks to achieve higher adversarial robustness. This robustness improvement can be observed substantially and consistently even by pushing the network capacity to an unprecedented scale, i.e., ResNet-638.",
-            "https://arxiv.org/abs/1906.03787"
-        )
-
-        add_paper("Learning Transferable Adversarial Examples via Ghost Networks",
-            "Yingwei Li, Song Bai, Yuyin Zhou, Cihang Xie, Zhishuai Zhang, Alan Yuille",
-            "AAAI, 2020",
-            "https://arxiv.org/abs/1812.03413",
-            "@inproceedings{li2020learning,<br>" +
-             "&nbsp;&nbsp;&nbsp;title     = {Learning transferable adversarial examples via ghost networks},<br>" +
-             "&nbsp;&nbsp;&nbsp;author    = {Li, Yingwei and Bai, Song and Zhou, Yuyin and Xie, Cihang and Zhang, Zhishuai and Yuille, Alan},<br>" +
-             "&nbsp;&nbsp;&nbsp;booktitle = {AAAI},<br>" +
-             "&nbsp;&nbsp;&nbsp;year      = {2020}<br>}",
-            "Recent development of adversarial attacks has proven that ensemble-based methods outperform traditional, non-ensemble ones in black-box attack. However, as it is computationally prohibitive to acquire a family of diverse models, these methods achieve inferior performance constrained by the limited number of models to be ensembled.In this paper, we propose Ghost Networks to improve the transferability of adversarial examples. The critical principle of ghost networks is to apply feature-level perturbations to an existing model to potentially create a huge set of diverse models. After that, models are subsequently fused by longitudinal ensemble. Extensive experimental results suggest that the number of networks is essential for improving the transferability of adversarial examples, but it is less necessary to independently train different networks and ensemble them in an intensive aggregation way. Instead, our work can be used as a computationally cheap and easily applied plug-in to improve adversarial approaches both in single-model and multi-model attack, compatible with residual and non-residual networks. By reproducing the NeurIPS 2017 adversarial competition, our method outperforms the No.1 attack submission by a large margin, demonstrating its effectiveness and efficiency. Code is available at https://github.com/LiYingwei/ghost-network.",
-            "https://arxiv.org/abs/1812.03413",
-        )
-
-
-        add_paper("Detecting Pancreatic Adenocarcinoma in Multi-phase CT Scans via Alignment Ensemble",
-            "Yingda Xia, Qihang Yu, Wei Shen, Yuyin Zhou, Elliot Fishman",
-            "MICCAI, 2020",
-            "https://arxiv.org/abs/2003.08441",
-            "@inproceedings{xia2020detecting,<br>" +
-             "&nbsp;&nbsp;&nbsp;title     = {Detecting pancreatic ductal adenocarcinoma in multi-phase CT scans via alignment ensemble},<br>" +
-             "&nbsp;&nbsp;&nbsp;author    = {Xia, Yingda and Yu, Qihang and Shen, Wei and Zhou, Yuyin and Fishman, Elliot K and Yuille, Alan},<br>" +
-             "&nbsp;&nbsp;&nbsp;booktitle = {MICCAI},<br>" +
-             "&nbsp;&nbsp;&nbsp;year      = {2020}<br>}",
-            "Pancreatic ductal adenocarcinoma (PDAC) is one of the most lethal cancers among the population. Screening for PDACs in dynamic contrast-enhanced CT is beneficial for early diagnosis. In this paper, we investigate the problem of automated detecting PDACs in multi-phase (arterial and venous) CT scans. Multiple phases provide more information than single phase, but they are unaligned and inhomogeneous in texture, making it difficult to combine cross-phase information seamlessly. We study multiple phase alignment strategies, i.e., early alignment (image registration), late alignment (high-level feature registration), and slow alignment (multi-level feature registration), and suggest an ensemble of all these alignments as a promising way to boost the performance of PDAC detection. We provide an extensive empirical evaluation on two PDAC datasets and show that the proposed alignment ensemble significantly outperforms previous state-of-the-art approaches, illustrating the strong potential for clinical use.",
-            "https://arxiv.org/abs/2003.08441"
-        )
-
-        add_paper("Domain Adaptive Relational Reasoning for 3D Multi-Organ Segmentation",
-            "Shuhao Fu, Yongyi Lu, Yan Wang, Yuyin Zhou, Wei Shen, Elliot Fishman, Alan Yuille",
-            "MICCAI, 2020",
-            "https://arxiv.org/abs/2005.09120",
-            "@inproceedings{fu2020domain,<br>" +
-             "&nbsp;&nbsp;&nbsp;title     = {Domain adaptive relational reasoning for 3d multi-organ segmentation},<br>" +
-             "&nbsp;&nbsp;&nbsp;author    = {Fu, Shuhao and Lu, Yongyi and Wang, Yan and Zhou, Yuyin and Shen, Wei and Fishman, Elliot and Yuille, Alan},<br>" +
-             "&nbsp;&nbsp;&nbsp;booktitle = {MICCAI},<br>" +
-             "&nbsp;&nbsp;&nbsp;year      = {2020}<br>}",
-            "In this paper, we present a novel unsupervised domain adaptation (UDA) method, named Domain Adaptive Relational Reasoning (DARR), to generalize 3D multi-organ segmentation models to medical data collected from different scanners and/or protocols (domains). Our method is inspired by the fact that the spatial relationship between internal structures in medical images is relatively fixed, e.g., a spleen is always located at the tail of a pancreas, which serves as a latent variable to transfer the knowledge shared across multiple domains. We formulate the spatial relationship by solving a jigsaw puzzle task, i.e., recovering a CT scan from its shuffled patches, and jointly train it with the organ segmentation task. To guarantee the transferability of the learned spatial relationship to multiple domains, we additionally introduce two schemes: 1) Employing a super-resolution network also jointly trained with the segmentation model to standardize medical images from different domain to a certain spatial resolution; 2) Adapting the spatial relationship for a test image by test-time jigsaw puzzle training. Experimental results show that our method improves the performance by 29.60% DSC on target datasets on average without using any data from the target domain during training.",
-            "https://arxiv.org/abs/2005.09120"
-        )
-
-        add_paper("Deep learning-based quantitative visualization and measurement of extraperitoneal hematoma volumes in patients with pelvic fractures",
-            "David Dreizin, Yuyin Zhou, Tina Chen, Guang Li, Alan Yuille , Ashley McLenithan, Jonathan Morrison",
-            "Journal of Trauma and Acute Care Surgery, 2020",
-            "https://pubmed.ncbi.nlm.nih.gov/32107356/",
-            "@article{dreizin2020deep,<br>" +
-             "&nbsp;&nbsp;&nbsp;title     = {Deep learning-based quantitative visualization and measurement of extraperitoneal hematoma volumes in patients with pelvic fractures: potential role in personalized forecasting and decision support},<br>" +
-             "&nbsp;&nbsp;&nbsp;author    = {Dreizin, David and Zhou, Yuyin and Chen, Tina and Li, Guang and Yuille, Alan and McLenithan, Ashley and Morrison, Jonathan J},<br>" +
-             "&nbsp;&nbsp;&nbsp;journal   = {Journal of Trauma and Acute Care Surgery}<br>" +
-             "&nbsp;&nbsp;&nbsp;year      = {2020}<br>}" ,
-            "Admission CT is a widely used diagnostic tool for patients with pelvic fractures. In this pilot study, we hypothesized that pelvic hematoma volumes derived using a rapid automated deep learning-based quantitative visualization and measurement algorithm predict interventions and outcomes including a) need for angioembolization, pelvic packing, or massive transfusion, and b) in-hospital mortality.<br>We performed a single-institution retrospective analysis of 253 patients with bleeding pelvic fractures who underwent admission abdominopelvic trauma CT between 2008–2017. Included patients had hematoma volumes ≥ 30 mL, were ≥ 18 years old, and underwent contrast-enhanced CT prior to surgical or angiographic intervention. Automated pelvic hematoma volume measurements were previously derived using a deep-learning (DL) quantitative visualization and measurement algorithm through cross-validation. A composite dependent variable of need for massive transfusion, angioembolization (AE), or pelvic packing (PP) was employed as the primary endpoint. The added utility of hematoma volume was assessed by comparing the performance of multivariable models with and without hematoma volume as a predictor. AUCs as well as sensitivities, specificities, and predictive values were determined at clinically relevant thresholds. Adjusted odds ratios (OR) of automated pelvic hematoma volumes at 200 mL increments were derived.<br>Median age was 47 [IQR 29, 61], and 70% of patients were male. Median ISS was 22 [14, 36]. 94% of patients had injuries in other body regions and 73% had polytrauma (ISS ≥ 16). 33% had Tile/OTA type B and 24% had type C pelvic fractures. 109 patients underwent AE, 22 underwent PP, and 53 received massive transfusion. A total of 123 patients received all three interventions. 16 patients died during hospitalization from causes other than untreatable (AIS 6) head injury. Variables incorporated into multivariable models included age, gender, Tile/OTA grade, admission lactate, HR, and SBP. Addition of hematoma volume resulted in a significant improvement in model performance, with AUC for the composite outcome (AE, PP, or massive transfusion) increasing from 0.74 to 0.83 (p < 0.001). Adjusted unit odds more than doubled for every additional 200 mL of hematoma volume. Incraese in model AUC for mortality with incorporation of hematoma volume was not statistically significant (0.85 versus 0.90, p = 0.12).<br>Hematoma volumes measured using a rapid automated deep learning algorithm improved prediction of need for AE, PP, or massive transfusion. Simultaneous automated measurement of multiple sources of bleeding at CT could augment outcome prediction in trauma patients.",
-            "https://pubmed.ncbi.nlm.nih.gov/32107356/"
-        )
-
-
-
-        add_paper("Recurrent Saliency Transformation Network for Tiny Target Segmentation in Abdominal CT Scans",
-            "Lingxi Xie, Qihang Yu, Yuyin Zhou, Yan Wang, Elliot Fishman, Alan Yuille",
-            "IEEE TMI, 2020",
-            "https://ieeexplore.ieee.org/abstract/document/8769868",
-            "@article{xie2019recurrent,<br>" +
-             "&nbsp;&nbsp;&nbsp;title     = {Recurrent saliency transformation network for tiny target segmentation in abdominal CT scans},<br>" +
-             "&nbsp;&nbsp;&nbsp;author    = {Xie, Lingxi and Yu, Qihang and Zhou, Yuyin and Wang, Yan and Fishman, Elliot K and Yuille, Alan},<br>" +
-             "&nbsp;&nbsp;&nbsp;journal   = {IEEE Transactions on Medical Imaging},<br>" +
-             "&nbsp;&nbsp;&nbsp;year      = {2019}<br>}",
-            "We aim at segmenting a wide variety of organs, including tiny targets (e.g., adrenal gland), and neoplasms (e.g., pancreatic cyst), from abdominal CT scans. This is a challenging task in two aspects. First, some organs (e.g., the pancreas), are highly variable in both anatomy and geometry, and thus very difficult to depict. Second, the neoplasms often vary a lot in its size, shape, as well as its location within the organ. Third, the targets (organs and neoplasms) can be considerably small compared to the human body, and so standard deep networks for segmentation are often less sensitive to these targets and thus predict less accurately especially around their boundaries. In this paper, we present an end-to-end framework named recurrent saliency transformation network (RSTN) for segmenting tiny and/or variable targets. The RSTN is a coarse-to-fine approach that uses prediction from the first (coarse) stage to shrink the input region for the second (fine) stage. A saliency transformation module is inserted between these two stages so that 1) the coarse-scaled segmentation mask can be transferred as spatial weights and applied to the fine stage and 2) the gradients can be back-propagated from the loss layer to the entire network so that the two stages are optimized in a joint manner. In the testing stage, we perform segmentation iteratively to improve accuracy. In this extended journal paper, we allow a gradual optimization to improve the stability of the RSTN, and introduce a hierarchical version named H-RSTN to segment tiny and variable neoplasms such as pancreatic cysts. Experiments are performed on several CT datasets including a public pancreas segmentation dataset, our own multi-organ dataset, and a cystic pancreas dataset. In all these cases, the RSTN outperforms the baseline (a stage-wise coarse-to-fine approach) significantly. Confirmed by the radiologists in our team, these promising segmentation results can help early diagnosis of pancreatic cancer. The code and pre-trained models of our project were made available at https://github.com/198808xc/OrganSegRSTN",
-            "https://ieeexplore.ieee.org/abstract/document/8769868",
-            "https://github.com/198808xc/OrganSegRSTN"
-        )
-
+    
+        add_paper("Self-stratification of amphiphilic Janus particles at coating surfaces",
+            "Y Li, F Liu, S Chen, A Tsyrenova, K Miller, E Olson, R Mort, D Palm, C Xiang, X Yong, S Jiang",
+            "Materials Horizons 7(8).2047-2055, 2020",
+            "https://pubs.rsc.org/en/content/articlehtml/2020/mh/d0mh00589d",
+            )
+  
         document.write("</ul>")
         document.write("<h1>2019</h1>")
         document.write("<ul>")
 
+        add_paper("Janus Nanoparticles Enable Entropy-Driven Mixing of Bicomponent Hydrogels",
+            "S Chen, X Yong",
+            "Langmuir 35(46).14840-14848, 2019",
+            "https://pubs.acs.org/doi/full/10.1021/acs.langmuir.9b02012",
+            )
 
-        add_paper("Feature Denoising for Improving Adversarial Robustness",
-            "Cihang Xie, Yuxin Wu, Laurens van der Maaten, Alan Yuille, Kaiming He",
-            "CVPR, 2019",
-            "https://arxiv.org/abs/1812.03411",
-            "@inproceedings{xie2019feature,<br>" +
-             "&nbsp;&nbsp;&nbsp;title     = {Feature denoising for improving adversarial robustness},<br>" +
-             "&nbsp;&nbsp;&nbsp;author    = {Xie, Cihang and Wu, Yuxin and Maaten, Laurens van der and Yuille, Alan and He, Kaiming},<br>" +
-             "&nbsp;&nbsp;&nbsp;booktitle = {CVPR},<br>" +
-             "&nbsp;&nbsp;&nbsp;year      = {2019}<br>}",
-            "Adversarial attacks to image classification systems present challenges to convolutional networks and opportunities for understanding them. This study suggests that adversarial perturbations on images lead to noise in the features constructed by these networks. Motivated by this observation, we develop new network architectures that increase adversarial robustness by performing feature denoising. Specifically, our networks contain blocks that denoise the features using non-local means or other filters; the entire networks are trained end-to-end. When combined with adversarial training, our feature denoising networks substantially improve the state-of-the-art in adversarial robustness in both white-box and black-box attack settings. On ImageNet, under 10-iteration PGD white-box attacks where prior art has 27.9% accuracy, our method achieves 55.7%; even under extreme 2000-iteration PGD white-box attacks, our method secures 42.6% accuracy. Our method was ranked first in Competition on Adversarial Attacks and Defenses (CAAD) 2018 --- it achieved 50.6% classification accuracy on a secret, ImageNet-like test dataset against 48 unknown attackers, surpassing the runner-up approach by 10%. Code is available at https://github.com/facebookresearch/ImageNet-Adversarial-Training.",
-            "https://arxiv.org/abs/1812.03411",
-            "https://github.com/facebookresearch/ImageNet-Adversarial-Training",
-        )
-
-        add_paper("Improving Transferability of Adversarial Examples with Input Diversity",
-            "Cihang Xie, Zhishuai Zhang, Yuyin Zhou, Song Bai, Jianyu Wang, Zhou Ren, Alan Yuille",
-            "CVPR, 2019",
-            "https://arxiv.org/abs/1803.06978",
-            "@inproceedings{xie2019improving,<br>" +
-             "&nbsp;&nbsp;&nbsp;title     = {Improving transferability of adversarial examples with input diversity},<br>" +
-             "&nbsp;&nbsp;&nbsp;author    = {Xie, Cihang and Zhang, Zhishuai and Zhou, Yuyin and Bai, Song and Wang, Jianyu and Ren, Zhou and Yuille, Alan},<br>" +
-             "&nbsp;&nbsp;&nbsp;booktitle = {CVPR},<br>" +
-             "&nbsp;&nbsp;&nbsp;year      = {2019}<br>}",
-            "Though CNNs have achieved the state-of-the-art performance on various vision tasks, they are vulnerable to adversarial examples --- crafted by adding human-imperceptible perturbations to clean images. However, most of the existing adversarial attacks only achieve relatively low success rates under the challenging black-box setting, where the attackers have no knowledge of the model structure and parameters. To this end, we propose to improve the transferability of adversarial examples by creating diverse input patterns. Instead of only using the original images to generate adversarial examples, our method applies random transformations to the input images at each iteration. Extensive experiments on ImageNet show that the proposed attack method can generate adversarial examples that transfer much better to different networks than existing baselines. By evaluating our method against top defense solutions and official baselines from NIPS 2017 adversarial competition, the enhanced attack reaches an average success rate of 73.0%, which outperforms the top-1 attack submission in the NIPS competition by a large margin of 6.6%. We hope that our proposed attack strategy can serve as a strong benchmark baseline for evaluating the robustness of networks to adversaries and the effectiveness of different defense methods in the future. Code is available at https://github.com/cihangxie/DI-2-FGSM.",
-            "https://arxiv.org/abs/1803.06978",
-            "https://github.com/cihangxie/DI-2-FGSM"
-        )
-
-
-        add_paper("Performance of a Deep Learning Algorithm for Automated Segmentation and Quantification of Traumatic Pelvic Hematomas on CT",
-            "David Dreizin, Yuyin Zhou, Yixiao Zhang, Nikki Tirada, Alan Yuille",
-            "Journal of Digital Imaging, 2019",
-            "https://pubmed.ncbi.nlm.nih.gov/31172331/",
-            "@article{dreizin2020performance,<br>" +
-             "&nbsp;&nbsp;&nbsp;title     = {Performance of a deep learning algorithm for automated segmentation and quantification of traumatic pelvic hematomas on CT},<br>" +
-             "&nbsp;&nbsp;&nbsp;author    = {Dreizin, David and Zhou, Yuyin and Zhang, Yixiao and Tirada, Nikki and Yuille, Alan},<br>" +
-             "&nbsp;&nbsp;&nbsp;journal   = {Journal of Digital Imaging},<br>" +
-             "&nbsp;&nbsp;&nbsp;year      = {2020}<br>}",
-            "The volume of pelvic hematoma at CT has been shown to be the strongest independent predictor of major arterial injury requiring angioembolization in trauma victims with pelvic fractures, and also correlates with transfusion requirement and mortality. Measurement of pelvic hematomas (unopacified extraperitoneal blood accumulated from time of injury) using semi-automated seeded region growing is time-consuming and requires trained experts, precluding routine measurement at the point of care. Pelvic hematomas are markedly variable in shape and location, have irregular ill-defined margins, have low contrast with respect to viscera and muscle, and reside within anatomically distorted pelvises. Furthermore, pelvic hematomas occupy a small proportion of the entire volume of a chest, abdomen, and pelvis (C/A/P) trauma CT. The challenges are many, and no automated methods for segmentation and volumetric analysis have been described to date. Traditional approaches using fully convolutional networks result in coarse segmentations and class imbalance with suboptimal convergence. In this study, we implement a modified coarse-to-fine deep learning approach—the Recurrent Saliency Transformation Network (RSTN) for pelvic hematoma volume segmentation. RSTN previously yielded excellent results in pancreas segmentation, where low contrast with adjacent structures, small target volume, variable location, and fine contours are also problematic. We have curated a unique single-institution corpus of 253 C/A/P admission trauma CT studies in patients with bleeding pelvic fractures with manually labeled pelvic hematomas. We hypothesized that RSTN would result in sufficiently high Dice similarity coefficients to facilitate accurate and objective volumetric measurements for outcome prediction (arterial injury requiring angioembolization). Cases were separated into five combinations of training and test sets in an 80/20 split and fivefold cross-validation was performed. Dice scores in the test set were 0.71 (SD ± 0.10) using RSTN, compared to 0.49 (SD ± 0.16) using a baseline Deep Learning Tool Kit (DLTK) reference 3D U-Net architecture. Mean inference segmentation time for RSTN was 0.90 min (± 0.26). Pearson correlation between predicted and manual labels was 0.95 with p < 0.0001. Measurement bias was within 10 mL. AUC of hematoma volumes for predicting need for angioembolization was 0.81 (predicted) versus 0.80 (manual). Qualitatively, predicted labels closely followed hematoma contours and avoided muscle and displaced viscera. Further work will involve validation using a federated dataset and incorporation into a predictive model using multiple segmented features.",
-            "https://pubmed.ncbi.nlm.nih.gov/31172331/"
-        )
-
-        add_paper("Lesion detection by efficiently bridging 3D context",
-            "Zhishuai Zhang, Yuyin Zhou, Wei Shen, Elliot Fishman, Alan Yuille",
-            "MICCAI Workshop on Machine Learning in Medical Imaging, 2019",
-            "https://link.springer.com/chapter/10.1007/978-3-030-32692-0_54",
-            "@inproceedings{zhang2019lesion,<br>" +
-             "&nbsp;&nbsp;&nbsp;title     = {Lesion detection by efficiently bridging 3D context},<br>" +
-             "&nbsp;&nbsp;&nbsp;author    = {Zhang, Zhishuai and Zhou, Yuyin and Shen, Wei and Fishman, Elliot and Yuille, Alan},<br>" +
-             "&nbsp;&nbsp;&nbsp;booktitle = {MICCAI Workshop on Machine Learning in Medical Imaging},<br>" +
-             "&nbsp;&nbsp;&nbsp;year      = {2019}<br>}",
-            "Lesion detection in CT (computed tomography) scan images is an important yet challenging task due to the low contrast of soft tissues and similar appearance between lesion and the background. Exploiting 3D context information has been studied extensively to improve detection accuracy. However, previous methods either use a 3D CNN which usually requires a sliding window strategy to inference and only acts on local patches; or simply concatenate feature maps of independent 2D CNNs to obtain 3D context information, which is less effective to capture 3D knowledge. To address these issues, we design a hybrid detector to combine benefits from both of the above methods. We propose to build several light-weighted 3D CNNs as subnets to bridge 2D CNNs’ intermediate features, so that 2D CNNs are connected with each other which interchange 3D context information while feed-forwarding. Comprehensive experiments in DeepLesion dataset show that our method can combine 3D knowledge effectively and provide higher quality backbone features. Our detector surpasses the current state-of-the-art by a large margin with comparable speed and GPU memory consumption.",
-            "https://link.springer.com/chapter/10.1007/978-3-030-32692-0_54"
-        )
-
-        add_paper("FusionNet: Incorporating Shape and Texture for Abnormality Detection in 3D Abdominal CT Scans",
-            "Fengze Liu, Yuyin Zhou, Elliot Fishman, Alan Yuille",
-            "MICCAI Workshop on Machine Learning in Medical Imaging, 2019",
-            "https://link.springer.com/chapter/10.1007/978-3-030-32692-0_26",
-            "@inproceedings{liu2019fusionnet,<br>" +
-             "&nbsp;&nbsp;&nbsp;title     = {FusionNet: Incorporating Shape and Texture for Abnormality Detection in 3D Abdominal CT Scans},<br>" +
-             "&nbsp;&nbsp;&nbsp;author    = {Liu, Fengze and Zhou, Yuyin and Fishman, Elliot and Yuille, Alan},<br>" +
-             "&nbsp;&nbsp;&nbsp;booktitle = {MICCAI Workshop on Machine Learning in Medical Imaging},<br>" +
-             "&nbsp;&nbsp;&nbsp;year      = {2019}<br>}",
-            "Automatic abnormality detection in abdominal CT scans can help doctors improve the accuracy and efficiency in diagnosis. In this paper we aim at detecting pancreatic ductal adenocarcinoma (PDAC), the most common pancreatic cancer. Taking the fact that the existence of tumor can affect both the shape and the texture of pancreas, we design a system to extract the shape and texture feature at the same time for detecting PDAC. In this paper we propose a two-stage method for this 3D classification task. First, we segment the pancreas into a binary mask. Second, a FusionNet is proposed to take both the binary mask and CT image as input and perform a binary classification. The optimal architecture of the FusionNet is obtained by searching a pre-defined functional space. We show that the classification results using either shape or texture information are complementary, and by fusing them with the optimized architecture, the performance improves by a large margin. Our method achieves a specificity of 97% and a sensitivity of 92% on 200 normal scans and 136 scans with PDAC.",
-            "https://link.springer.com/chapter/10.1007/978-3-030-32692-0_26"
-        )
-
-        add_paper("Multi-scale attentional network for multi-focal segmentation of active bleed after pelvic fractures",
-            "Yuyin Zhou, David Dreizin, Yingwei Li, Zhishuai Zhang, Yan Wang, Alan Yuille",
-            "MICCAI Workshop on Machine Learning in Medical Imaging, 2019",
-            "https://link.springer.com/chapter/10.1007/978-3-030-32692-0_53",
-            "@inproceedings{zhou2019multi,<br>" +
-             "&nbsp;&nbsp;&nbsp;title     = {Multi-scale attentional network for multi-focal segmentation of active bleed after pelvic fractures},<br>" +
-             "&nbsp;&nbsp;&nbsp;author    = {Zhou, Yuyin and Dreizin, David and Li, Yingwei and Zhang, Zhishuai and Wang, Yan and Yuille, Alan},<br>" +
-             "&nbsp;&nbsp;&nbsp;booktitle = {MICCAI Workshop on Machine Learning in Medical Imaging},<br>" +
-             "&nbsp;&nbsp;&nbsp;year      = {2019}<br>}",
-            "Trauma is the worldwide leading cause of death and disability in those younger than 45 years, and pelvic fractures are a major source of morbidity and mortality. Automated segmentation of multiple foci of arterial bleeding from abdominopelvic trauma CT could provide rapid objective measurements of the total extent of active bleeding, potentially augmenting outcome prediction at the point of care, while improving patient triage, allocation of appropriate resources, and time to definitive intervention. In spite of the importance of active bleeding in the quick tempo of trauma care, the task is still quite challenging due to the variable contrast, intensity, location, size, shape, and multiplicity of bleeding foci. Existing work presents a heuristic rule-based segmentation technique which requires multiple stages and cannot be efficiently optimized end-to-end. To this end, we present, Multi-Scale Attentional Network (MSAN), the first yet reliable end-to-end network, for automated segmentation of active hemorrhage from contrast-enhanced trauma CT scans. MSAN consists of the following components: (1) an encoder which fully integrates the global contextual information from holistic 2D slices; (2) a multi-scale strategy applied both in the training stage and the inference stage to handle the challenges induced by variation of target sizes; (3) an attentional module to further refine the deep features, leading to better segmentation quality; and (4) a multi-view mechanism to leverage the 3D information. MSAN reports a significant improvement of more than 7% compared to prior arts in terms of DSC.",
-            "https://link.springer.com/chapter/10.1007/978-3-030-32692-0_53"
-        )
-
-        add_paper("Application of deep learning to pancreatic cancer detection: lessons learned from our initial experience",
-            "Linda C Chu, Seyoun Park, Satomi Kawamoto, Yan Wang, Yuyin Zhou, Wei Shen, Zhuotun Zhu, Yingda Xia, Lingxi Xie, Fengze Liu, Qihang Yu, Daniel F Fouladi, Shahab Shayesteh, Eva Zinreich, Jefferson S Graves, Karen M Horton, Alan Yuille, Ralph H Hruban, Kenneth W Kinzler, Bert Vogelstein, Elliot K Fishman",
-            "Journal of the American College of Radiology, 2019",
-            "https://www.jacr.org/article/S1546-1440(19)30631-3/abstract",
-            "@article{chu2019application,<br>" +
-             "&nbsp;&nbsp;&nbsp;title     = {Application of deep learning to pancreatic cancer detection: lessons learned from our initial experience},<br>" +
-             "&nbsp;&nbsp;&nbsp;author    = {Chu, Linda C and Park, Seyoun and Kawamoto, Satomi and Wang, Yan and Zhou, Yuyin and Shen, Wei and Zhu, Zhuotun and Xia, Yingda and Xie, Lingxi and Liu, Fengze and others},<br>" +
-             "&nbsp;&nbsp;&nbsp;journal   = {Journal of the American College of Radiology},<br>" +
-             "&nbsp;&nbsp;&nbsp;year      = {2019}<br>}",
-            "Excitement has been steadily growing over the promise of artificial intelligence (AI) for radiology. Deep learning, a form of AI, uses training data and multiple layers of equations to develop a mathematical model that best fits the data [ 1 ]. The model can make predictions on the basis of new data. These algorithms deliver the prospect of improved disease detection and disease prognostication. As radiologists face increased pressure to read more cases each day, deep learning and other forms of AI offer the potential to serve as a “second reader” to decrease misses and increase efficiency. AI can analyze thousands of images on a pixel-by-pixel level and is not susceptible to mistakes due to fatigue, interruptions, or satisfaction of search.",
-            "https://www.jacr.org/article/S1546-1440(19)30631-3/abstract"
-        )
-
-
-        add_paper("Hyper-Pairing Network for Multi-Phase Pancreatic Ductal Adenocarcinoma Segmentation",
-            "Yuyin Zhou, Yingwei Li, Zhishuai Zhang, Yan Wang, Angtian Wang, Elliot K. Fishman, Alan Yuille, Seyoun Park",
-            "MICCAI, 2019",
-            "https://arxiv.org/abs/1909.00906",
-            "@inproceedings{zhou2019hyper,<br>" +
-             "&nbsp;&nbsp;&nbsp;title     = {Hyper-pairing network for multi-phase pancreatic ductal adenocarcinoma segmentation},<br>" +
-             "&nbsp;&nbsp;&nbsp;author    = {Zhou, Yuyin and Li, Yingwei and Zhang, Zhishuai and Wang, Yan and Wang, Angtian and Fishman, Elliot K and Yuille, Alan and Park, Seyoun},<br>" +
-             "&nbsp;&nbsp;&nbsp;booktitle     = {MICCAI},<br>" +
-             "&nbsp;&nbsp;&nbsp;year      = {2019}<br>}",
-            "Pancreatic ductal adenocarcinoma (PDAC) is one of the most lethal cancers with an overall five-year survival rate of 8%. Due to subtle texture changes of PDAC, pancreatic dual-phase imaging is recommended for better diagnosis of pancreatic disease. In this study, we aim at enhancing PDAC automatic segmentation by integrating multi-phase information (i.e., arterial phase and venous phase). To this end, we present Hyper-Pairing Network (HPN), a 3D fully convolution neural network which effectively integrates information from different phases. The proposed approach consists of a dual path network where the two parallel streams are interconnected with hyper-connections for intensive information exchange. Additionally, a pairing loss is added to encourage the commonality between high-level feature representations of different phases. Compared to prior arts which use single phase data, HPN reports a significant improvement up to 7.73% (from 56.21% to 63.94%) in terms of DSC.",
-            "https://arxiv.org/abs/1909.00906"
-        )
-
-        add_paper("Prior-aware Neural Network for Partially-Supervised Multi-Organ Segmentation",
-            "Yuyin Zhou, Zhe Li, Song Bai, Chong Wang, Xinlei Chen, Mei Han, Elliot Fishman, Alan Yuille",
-            "ICCV, 2019",
-            "https://arxiv.org/abs/1904.06346",
-            "@inproceedings{zhou2019prior,<br>" +
-             "&nbsp;&nbsp;&nbsp;title     = {Prior-aware neural network for partially-supervised multi-organ segmentation},<br>" +
-             "&nbsp;&nbsp;&nbsp;author    = {Zhou, Yuyin and Li, Zhe and Bai, Song and Wang, Chong and Chen, Xinlei and Han, Mei and Fishman, Elliot and Yuille, Alan},<br>" +
-             "&nbsp;&nbsp;&nbsp;booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision},<br>" +
-             "&nbsp;&nbsp;&nbsp;year      = {2019}<br>}",
-            "Accurate multi-organ abdominal CT segmentation is essential to many clinical applications such as computer-aided intervention. As data annotation requires massive human labor from experienced radiologists, it is common that training data are partially labeled, e.g., pancreas datasets only have the pancreas labeled while leaving the rest marked as background. However, these background labels can be misleading in multi-organ segmentation since the \"background\" usually contains some other organs of interest. To address the background ambiguity in these partially-labeled datasets, we propose Prior-aware Neural Network (PaNN) via explicitly incorporating anatomical priors on abdominal organ sizes, guiding the training process with domain-specific knowledge. More specifically, PaNN assumes that the average organ size distributions in the abdomen should approximate their empirical distributions, a prior statistics obtained from the fully-labeled dataset. As our training objective is difficult to be directly optimized using stochastic gradient descent [20], we propose to reformulate it in a min-max form and optimize it via the stochastic primal-dual gradient algorithm. PaNN achieves state-of-the-art performance on the MICCAI2015 challenge \"Multi-Atlas Labeling Beyond the Cranial Vault\", a competition on organ segmentation in the abdomen. We report an average Dice score of 84.97%, surpassing the prior art by a large margin of 3.27%.",
-            "https://arxiv.org/abs/1904.06346"
-        )
-
-
-        add_paper("Abdominal multi-organ segmentation with organ-attention networks and statistical fusion",
-            "Yan Wang, Yuyin Zhou, Wei Shen, Seyoun Park, Elliot Fishman, Alan Yuille",
-            "Medical Image Analysis, 2019",
-            "https://arxiv.org/abs/1804.08414",
-            "@article{wang2019abdominal,<br>" +
-             "&nbsp;&nbsp;&nbsp;title     = {Abdominal multi-organ segmentation with organ-attention networks and statistical fusion},<br>" +
-             "&nbsp;&nbsp;&nbsp;author    = {Wang, Yan and Zhou, Yuyin and Shen, Wei and Park, Seyoun and Fishman, Elliot K and Yuille, Alan},<br>" +
-             "&nbsp;&nbsp;&nbsp;journal   = {Medical Image Analysis},<br>" +
-             "&nbsp;&nbsp;&nbsp;year      = {2019}<br>}",
-            "Accurate and robust segmentation of abdominal organs on CT is essential for many clinical applications such as computer-aided diagnosis and computer-aided surgery. But this task is challenging due to the weak boundaries of organs, the complexity of the background, and the variable sizes of different organs. To address these challenges, we introduce a novel framework for multi-organ segmentation of abdominal regions by using organ-attention networks with reverse connections (OAN-RCs) which are applied to 2D views, of the 3D CT volume, and output estimates which are combined by statistical fusion exploiting structural similarity. More specifically, OAN is a two-stage deep convolutional network, where deep network features from the first stage are combined with the original image, in a second stage, to reduce the complex background and enhance the discriminative information for the target organs. Intuitively, OAN reduces the effect of the complex background by focusing attention so that each organ only needs to be discriminated from its local background. RCs are added to the first stage to give the lower layers more semantic information thereby enabling them to adapt to the sizes of different organs. Our networks are trained on 2D views (slices) enabling us to use holistic information and allowing efficient computation (compared to using 3D patches). To compensate for the limited cross-sectional information of the original 3D volumetric CT, e.g., the connectivity between neighbor slices, multi-sectional images are reconstructed from the three different 2D view directions. Then we combine the segmentation results from the different views using statistical fusion, with a novel term relating the structural similarity of the 2D views to the original 3D structure. To train the network and evaluate results, 13 structures were manually annotated by four human raters and confirmed by a senior expert on 236 normal cases. We tested our algorithm by 4-fold cross-validation and computed Dice–Sørensen similarity coefficients (DSC) and surface distances for evaluating our estimates of the 13 structures. Our experiments show that the proposed approach gives strong results and outperforms 2D- and 3D-patch based state-of-the-art methods in terms of DSC and mean surface distances.",
-            "https://arxiv.org/abs/1804.08414"
-        )
-
-        add_paper("Semi- Supervised 3D Multi-Organ Segmentation via Deep Multi-Planar Co-Training",
-            "Yuyin Zhou, Yan Wang, Peng Tang, Song Bai, Wei Shen, Elliot Fishman, Alan Yuille",
-            "WACV, 2019",
-            "https://arxiv.org/abs/1804.02586",
-            "@inproceedings{zhou2019semi,<br>" +
-             "&nbsp;&nbsp;&nbsp;title     = {Semi-supervised 3D abdominal multi-organ segmentation via deep multi-planar co-training},<br>" +
-             "&nbsp;&nbsp;&nbsp;author    = {Zhou, Yuyin and Wang, Yan and Tang, Peng and Bai, Song and Shen, Wei and Fishman, Elliot and Yuille, Alan},<br>" +
-             "&nbsp;&nbsp;&nbsp;booktitle = {2019 WACV},<br>" +
-             "&nbsp;&nbsp;&nbsp;year      = {2019}<br>}",
-            "In multi-organ segmentation of abdominal CT scans, most existing fully supervised deep learning algorithms require lots of voxel-wise annotations, which are usually difficult, expensive, and slow to obtain. In comparison, massive unlabeled 3D CT volumes are usually easily accessible. Current mainstream works to address semi-supervised biomedical image segmentation problem are mostly graph-based. By contrast, deep network based semi-supervised learning methods have not drawn much attention in this field. In this work, we propose Deep Multi-Planar Co-Training (DMPCT), whose contributions can be divided into two folds: 1) The deep model is learned in a co-training style which can mine consensus information from multiple planes like the sagittal, coronal, and axial planes; 2) Multi-planar fusion is applied to generate more reliable pseudo-labels, which alleviates the errors occurring in the pseudo-labels and thus can help to train better segmentation networks. Experiments are done on our newly collected large dataset with 100 unlabeled cases as well as 210 labeled cases where 16 anatomical structures are manually annotated by four radiologists and confirmed by a senior expert. The results suggest that DMPCT significantly outperforms the fully supervised method by more than 4% especially when only a small set of annotations is used.",
-            "https://arxiv.org/abs/1804.02586"
-        )
-
-        add_paper("Volumetric medical image segmentation: a 3D deep coarse-to-fine framework and its adversarial examples",
-            "Yingwei Li, Zhuotun Zhu, Yuyin Zhou, Yingda Xia, Wei Shen, Elliot K Fishman, Alan Yuille",
-            "Deep Learning and Convolutional Neural Networks for Medical Imaging and Clinical Informatics, 2019",
-            "https://arxiv.org/abs/2010.16074",
-            "@incollection{li2019volumetric,<br>" +
-             "&nbsp;&nbsp;&nbsp;title     = {Volumetric medical image segmentation: a 3D deep coarse-to-fine framework and its adversarial examples}, <br>" +
-             "&nbsp;&nbsp;&nbsp;author    = {Li, Yingwei and Zhu, Zhuotun and Zhou, Yuyin and Xia, Yingda and Shen, Wei and Fishman, Elliot K and Yuille, Alan},<br>" +
-             "&nbsp;&nbsp;&nbsp;booktitle = {Deep Learning and Convolutional Neural Networks for Medical Imaging and Clinical Informatics},<br>" +
-             "&nbsp;&nbsp;&nbsp;year      = {2019}<br>}",
-            "Although deep neural networks have been a dominant method for many 2D vision tasks, it is still challenging to apply them to 3D tasks, such as medical image segmentation, due to the limited amount of annotated 3D data and limited computational resources. In this chapter, by rethinking the strategy to apply 3D Convolutional Neural Networks to segment medical images, we propose a novel 3D-based coarse-to-fine framework to efficiently tackle these challenges. The proposed 3D-based framework outperforms their 2D counterparts by a large margin since it can leverage the rich spatial information along all three axes. We further analyze the threat of adversarial attacks on the proposed framework and show how to defend against the attack. We conduct experiments on three datasets, the NIH pancreas dataset, the JHMI pancreas dataset and the JHMI pathological cyst dataset, where the first two and the last one contain healthy and pathological pancreases, respectively, and achieve the current state of the art in terms of Dice-Sørensen Coefficient (DSC) on all of them. Especially, on the NIH pancreas dataset, we outperform the previous best by an average of over 2%, and the worst case is improved by 7% to reach almost 70%, which indicates the reliability of our framework in clinical applications.",
-            "https://arxiv.org/abs/2010.16074"
-        )
-
-
-        add_paper("2D-Based Coarse-to-Fine Approaches for Small Target Segmentation in Abdominal CT Scans",
-            "Yuyin Zhou, Qihang Yu, Yan Wang, Lingxi Xie, Wei Shen, Elliot K Fishman, Alan Yuille",
-            "Deep Learning and Convolutional Neural Networks for Medical Imaging and Clinical Informatics, 2019",
-            "https://link.springer.com/chapter/10.1007/978-3-030-13969-8_3",
-            "@incollection{zhou20192d,<br>" +
-             "&nbsp;&nbsp;&nbsp;title     = {2D-Based Coarse-to-Fine Approaches for Small Target Segmentation in Abdominal CT Scans},<br>" +
-             "&nbsp;&nbsp;&nbsp;author    = {Zhou, Yuyin and Yu, Qihang and Wang, Yan and Xie, Lingxi and Shen, Wei and Fishman, Elliot K and Yuille, Alan},<br>" +
-             "&nbsp;&nbsp;&nbsp;booktitle = {Deep Learning and Convolutional Neural Networks for Medical Imaging and Clinical Informatics},<br>" +
-             "&nbsp;&nbsp;&nbsp;year      = {2019}<br>}",
-            "Deep neural networks have been widely adopted for automatic organ segmentation from abdominal CT scans. However, the segmentation accuracy of small organs (e.g., pancreas) or neoplasms (e.g., pancreatic cyst) is sometimes below satisfaction, arguably because deep networks are easily disrupted by the complex and variable background regions which occupy a large fraction of the input volume. In this chapter, we propose two coarse-to-fine mechanisms which use prediction from the first (coarse) stage to shrink the input region for the second (fine) stage. More specifically, the two stages in the first method are trained individually in a step-wise manner, so that the entire input region and the region cropped according to the bounding box are treated separately. While the second method inserts a saliency transformation module between the two stages so that the segmentation probability map from the previous iteration can be repeatedly converted as spatial weights to the current iteration. In training, it allows joint optimization over the deep networks. In testing, it propagates multi-stage visual information throughout iterations to improve segmentation accuracy. Experiments are performed on several CT datasets, including NIH pancreas, JHMI multi-organ, and JHMI pancreatic cyst dataset. Our proposed approach gives strong results in terms of DSC.",
-            "https://link.springer.com/chapter/10.1007/978-3-030-13969-8_3"
-        )
+        add_paper("Morphology evolution of Janus dumbbell nanoparticles in seeded emulsion polymerization",
+            " Y Li, S Chen, S Demirci, S Qin, Z Xu, E Olson, F Liu, D Palm, X Yong, S Jiang",
+            "Journal of colloid and interface science 543.34-42, 2019",
+            "https://www.sciencedirect.com/science/article/pii/S0021979719301316",
+            )
 
 
 
@@ -732,144 +366,13 @@ function copy(dest, source) {
         document.write("<h1>2018</h1>")
         document.write("<ul>")
 
+        add_paper("Dissipative particle dynamics modeling of hydrogel swelling by osmotic ensemble method",
+            "S Chen, X Yong",
+            "J. Chem. Phys. 149.094904, 2018",
+            "https://pubs.aip.org/aip/jcp/article/149/9/094904/361257",
+            )
 
-        add_paper("Mitigating Adversarial Effects Through Randomization",
-            "Cihang Xie, Jianyu Wang, Zhishuai Zhang, Zhou Ren, Alan Yuille",
-            "ICLR, 2018",
-            "https://arxiv.org/abs/1711.01991",
-            "@inproceedings{xie2018mitigating,<br>" +
-             "&nbsp;&nbsp;&nbsp;title     = {Mitigating Adversarial Effects Through Randomization},<br>" +
-             "&nbsp;&nbsp;&nbsp;author    = {Xie, Cihang and Wang, Jianyu and Zhang, Zhishuai and Ren, Zhou and Yuille, Alan},<br>" +
-             "&nbsp;&nbsp;&nbsp;booktitle = {ICLR},<br>" +
-             "&nbsp;&nbsp;&nbsp;year      = {2018}<br>}",
-            "Convolutional neural networks have demonstrated high accuracy on various tasks in recent years. However, they are extremely vulnerable to adversarial examples. For example, imperceptible perturbations added to clean images can cause convolutional neural networks to fail. In this paper, we propose to utilize randomization at inference time to mitigate adversarial effects. Specifically, we use two randomization operations: random resizing, which resizes the input images to a random size, and random padding, which pads zeros around the input images in a random manner. Extensive experiments demonstrate that the proposed randomization method is very effective at defending against both single-step and iterative attacks. Our method provides the following advantages: 1) no additional training or f ine-tuning, 2) very few additional computations, 3) compatible with other adversarial defense methods. By combining the proposed randomization method with an adversarially trained model, it achieves a normalized score of 0.924 (ranked No.2 among 107 defense teams) in the NIPS 2017 adversarial examples defense challenge, which is far better than using adversarial training alone with a normalized score of 0.773 (ranked No.56). The code is public available at https://github.com/cihangxie/NIPS2017_adv_challenge_defense",
-            "https://arxiv.org/abs/1711.01991",
-            "https://github.com/cihangxie/NIPS2017_adv_challenge_defense",
-        )
-
-        add_paper("Single-Shot Object Detection with Enriched Semantics",
-            "Zhishuai Zhang, Siyuan Qiao, Cihang Xie, Wei Shen, Bo Wang, Alan Yuille",
-            "CVPR, 2018",
-            "https://arxiv.org/abs/1712.00433",
-            "@inproceedings{zhang2018des,<br>" +
-             "&nbsp;&nbsp;&nbsp;title     = {Single-Shot Object Detection with Enriched Semantics},<br>" +
-             "&nbsp;&nbsp;&nbsp;author    = {Zhang, Zhishuai and Qiao, Siyuan and Xie, Cihang and Shen, Wei and Wang, Bo and Yuille, Alan.},<br>" +
-             "&nbsp;&nbsp;&nbsp;booktitle = {CVPR},<br>" +
-             "&nbsp;&nbsp;&nbsp;year      = {2018}<br>}",
-            "We propose a novel single shot object detection network named Detection with Enriched Semantics (DES). Our motivation is to enrich the semantics of object detection features within a typical deep detector, by a semantic segmentation branch and a global activation module. The segmentation branch is supervised by weak segmentation ground-truth, i.e., no extra annotation is required. In conjunction with that, we employ a global activation module which learns relationship between channels and object classes in a self-supervised manner. Comprehensive experimental results on both PASCAL VOC and MS COCO detection datasets demonstrate the effectiveness of the proposed method. In particular, with a VGG16 based DES, we achieve an mAP of 81.7 on VOC2007 test and an mAP of 32.8 on COCO test-dev with an inference speed of 31.5 milliseconds per image on a Titan Xp GPU. With a lower resolution version, we achieve an mAP of 79.7 on VOC2007 with an inference speed of 13.0 milliseconds per image.",
-            "https://arxiv.org/abs/1712.00433",
-            "https://github.com/bairdzhang/des"
-        )
-
-        add_paper("DeepVoting: A Robust and Explainable Deep Network for Semantic Part Detection under Partial Occlusion",
-            "Zhishuai Zhang, Cihang Xie, Jianyu Wang, Lingxi Xie, Alan Yuille",
-            "CVPR, 2018",
-            "https://arxiv.org/abs/1709.04577",
-            "@inproceedings{zhang2018deepvoting,<br>" +
-             "&nbsp;&nbsp;&nbsp;title     = {DeepVoting: a robust and explainable deep network for semantic part detection under partial occlusion},<br>" +
-             "&nbsp;&nbsp;&nbsp;author    = {Zhang, Zhishuai and Xie, Cihang and Wang, Jianyu and Xie, Lingxi and Yuille, Alan},<br>" +
-             "&nbsp;&nbsp;&nbsp;booktitle = {CVPR},<br>" +
-             "&nbsp;&nbsp;&nbsp;year      = {2018}<br>}",
-            "In this paper, we study the task of detecting semantic parts of an object, e.g., a wheel of a car, under partial occlusion. We propose that all models should be trained without seeing occlusions while being able to transfer the learned knowledge to deal with occlusions. This setting alleviates the difficulty in collecting an exponentially large dataset to cover occlusion patterns and is more essential. In this scenario, the proposal-based deep networks, like RCNN-series, often produce unsatisfactory results, because both the proposal extraction and classification stages may be confused by the irrelevant occluders. To address this, [25] proposed a voting mechanism that combines multiple local visual cues to detect semantic parts. The semantic parts can still be detected even though some visual cues are missing due to occlusions. However, this method is manually-designed, thus is hard to be optimized in an end-to-end manner. In this paper, we present DeepVoting, which incorporates the robustness shown by [25] into a deep network, so that the whole pipeline can be jointly optimized. Specifically, it adds two layers after the intermediate features of a deep network, e.g., the pool-4 layer of VGGNet. The first layer extracts the evidence of local visual cues, and the second layer performs a voting mechanism by utilizing the spatial relationship between visual cues and semantic parts. We also propose an improved version DeepVoting+ by learning visual cues from context outside objects. In experiments, DeepVoting achieves significantly better performance than several baseline methods, including Faster-RCNN, for semantic part detection under occlusion. In addition, DeepVoting enjoys explainability as the detection results can be diagnosed via looking up the voting cues.",
-            "https://arxiv.org/abs/1709.04577"
-        )
-
-        add_paper("Recurrent Saliency Transformation Network: Incorporating Multi-Stage Visual Cues for Small Organ Segmentation",
-            "Qihang Yu, Lingxi Xie, Yan Wang, Yuyin Zhou, Elliot Fishman, Alan Yuille",
-            "CVPR, 2018",
-            "https://openaccess.thecvf.com/content_cvpr_2018/papers/Yu_Recurrent_Saliency_Transformation_CVPR_2018_paper.pdf",
-            "@inproceedings{yu2018recurrent,<br>" +
-             "&nbsp;&nbsp;&nbsp;title     = {Recurrent saliency transformation network: Incorporating multi-stage visual cues for small organ segmentation},<br>" +
-             "&nbsp;&nbsp;&nbsp;author    = {Yu, Qihang and Xie, Lingxi and Wang, Yan and Zhou, Yuyin and Fishman, Elliot K and Yuille, Alan},<br>" +
-             "&nbsp;&nbsp;&nbsp;booktitle = {Proceedings of the IEEE conference on computer vision and pattern recognition}, <br>" +
-             "&nbsp;&nbsp;&nbsp;year      = {2018}<br>}",
-            "We aim at segmenting small organs (e.g., the pancreas) from abdominal CT scans. As the target often occupies a relatively small region in the input image, deep neural networks can be easily confused by the complex and variable background. To alleviate this, researchers proposed a coarse-to-fine approach, which used prediction from the first (coarse) stage to indicate a smaller input region for the second (fine) stage. Despite its effectiveness, this algorithm dealt with two stages individually, which lacked optimizing a global energy function, and limited its ability to incorporate multi-stage visual cues. Missing contextual information led to unsatisfying convergence in iterations, and that the fine stage sometimes produced even lower segmentation accuracy than the coarse stage. This paper presents a Recurrent Saliency Transformation Network. The key innovation is a saliency transformation module, which repeatedly converts the segmentation probability map from the previous iteration as spatial weights and applies these weights to the current iteration. This brings us two-fold benefits. In training, it allows joint optimization over the deep networks dealing with different input scales. In testing, it propagates multi-stage visual information throughout iterations to improve segmentation accuracy. Experiments in the NIH pancreas segmentation dataset demonstrate the state-of-the-art accuracy, which outperforms the previous best by an average of over 2%. Much higher accuracies are also reported on several small organs in a larger dataset collected by ourselves. In addition, our approach enjoys better convergence properties, making it more efficient and reliable in practice.",
-            "https://openaccess.thecvf.com/content_cvpr_2018/papers/Yu_Recurrent_Saliency_Transformation_CVPR_2018_paper.pdf"
-        )
-
-         add_paper("Visual Concepts and Compositional Voting",
-            "Jianyu Wang, Zhishuai Zhang, Cihang Xie, Yuyin Zhou, Vittal Premachandran, Jun Zhu, Lingxi Xie, Alan Yuille",
-            "Annals of Mathematical Sciences and Applications, 2018",
-            "https://arxiv.org/abs/1711.04451",
-            "@article{wang2018vcsp,<br>" +
-             "&nbsp;&nbsp;&nbsp;title     = {Visual concepts and compositional voting},<br>" +
-             "&nbsp;&nbsp;&nbsp;author    = {Wang, Jianyu and Zhang, Zhishuai and Xie, Cihang and Zhou, Yuyin and Premachandran, Vittal and Zhu, Jun and Xie, Lingxi and Yuille, Alan},<br>" +
-             "&nbsp;&nbsp;&nbsp;journal   = {Annals of Mathematical Sciences and Applications},<br>" +
-             "&nbsp;&nbsp;&nbsp;year      = {2018},<br>",
-            "It is very attractive to formulate vision in terms of pattern theory [26], where patterns are defined hierarchically by compositions of elementary building blocks. But applying pattern theory to real world images is currently less successful than discriminative methods such as deep networks. Deep networks, however, are black-boxes which are hard to interpret and can easily be fooled by adding occluding objects. It is natural to wonder whether by better understanding deep networks we can extract building blocks which can be used to develop pattern theoretic models. This motivates us to study the internal representations of a deep network using vehicle images from the PASCAL3D+ dataset. We use clustering algorithms to study the population activities of the features and extract a set of visual concepts which we show are visually tight and correspond to semantic parts of vehicles. To analyze this we annotate these vehicles by their semantic parts to create a new dataset, VehicleSemanticParts, and evaluate visual concepts as unsupervised part detectors. We show that visual concepts perform fairly well but are outperformed by supervised discriminative methods such as Support Vector Machines (SVM). We next give a more detailed analysis of visual concepts and how they relate to semantic parts. Following this, we use the visual concepts as building blocks for a simple pattern theoretical model, which we call compositional voting. In this model several visual concepts combine to detect semantic parts. We show that this approach is significantly better than discriminative methods like SVM and deep networks trained specifically for semantic part detection. Finally, we return to studying occlusion by creating an annotated dataset with occlusion, called VehicleOcclusion, and show that compositional voting outperforms even deep networks when the amount of occlusion becomes large.",
-            "https://arxiv.org/abs/1711.04451"
-        )
-
-         add_paper("Training Multi-organ Segmentation Networks with Sample Selection by Relaxed Upper Confident Bound",
-            "Yan Wang, Yuyin Zhou, Peng Tang, Wei Shen, Elliot Fishman, Alan Yuille",
-            "MICCAI, 2018",
-            "https://link.springer.com/chapter/10.1007/978-3-030-00937-3_50",
-            "@inproceedings{wang2018training,<br>" +
-             "&nbsp;&nbsp;&nbsp;title     = {Training multi-organ segmentation networks with sample selection by relaxed upper confident bound},<br>" +
-             "&nbsp;&nbsp;&nbsp;author    = {Wang, Yan and Zhou, Yuyin and Tang, Peng and Shen, Wei and Fishman, Elliot K and Yuille, Alan},<br>" +
-             "&nbsp;&nbsp;&nbsp;booktitle = {MICCAI},<br>" +
-             "&nbsp;&nbsp;&nbsp;year      = {2018}<br>}",
-            "Convolutional neural networks (CNNs), especially fully convolutional networks, have been widely applied to automatic medical image segmentation problems, e.g., multi-organ segmentation. Existing CNN-based segmentation methods mainly focus on looking for increasingly powerful network architectures, but pay less attention to data sampling strategies for training networks more effectively. In this paper, we present a simple but effective sample selection method for training multi-organ segmentation networks. Sample selection exhibits an exploitation-exploration strategy, i.e., exploiting hard samples and exploring less frequently visited samples. Based on the fact that very hard samples might have annotation errors, we propose a new sample selection policy, named Relaxed Upper Confident Bound (RUCB). Compared with other sample selection policies, e.g., Upper Confident Bound (UCB), it exploits a range of hard samples rather than being stuck with a small set of very hard ones, which mitigates the influence of annotation errors during training. We apply this new sample selection policy to training a multi-organ segmentation network on a dataset containing 120 abdominal CT scans and show that it boosts segmentation performance significantly.",
-            "https://link.springer.com/chapter/10.1007/978-3-030-00937-3_50"
-        )
-
-        document.write("</ul>")
-        document.write("<h1>2017</h1>")
-        document.write("<ul>")
-
-        add_paper("Adversarial Examples for Semantic Segmentation and Object Detection",
-            "Jianyu Wang, Cihang Xie, Zhishuai Zhang, Jun Zhu, Lingxi Xie, Alan Yuille",
-            "ICCV, 2017",
-            "https://arxiv.org/abs/1703.08603",
-            "@inproceedings{xie2017dag,<br>" +
-             "&nbsp;&nbsp;&nbsp;title     = {Adversarial Examples for Semantic Segmentation and Object Detection},<br>" +
-             "&nbsp;&nbsp;&nbsp;author    = {Xie, Cihang and Wang, Jianyu and Zhang, Zhishuai and Zhou, Yuyin and Xie, Lingxi and Yuille, Alan},<br>" +
-             "&nbsp;&nbsp;&nbsp;booktitle = {ICCV},<br>" +
-             "&nbsp;&nbsp;&nbsp;year      = {2017}<br>}",
-            "It has been well demonstrated that adversarial examples, i.e., natural images with visually imperceptible perturbations added, generally exist for deep networks to fail on image classification. In this paper, we extend adversarial examples to semantic segmentation and object detection which are much more difficult. Our observation is that both segmentation and detection are based on classifying multiple targets on an image (e.g., the basic target is a pixel or a receptive field in segmentation, and an object proposal in detection), which inspires us to optimize a loss function over a set of pixels/proposals for generating adversarial perturbations. Based on this idea, we propose a novel algorithm named Dense Adversary Generation (DAG), which generates a large family of adversarial examples, and applies to a wide range of state-of-the-art deep networks for segmentation and detection. We also find that the adversarial perturbations can be transferred across networks with different training data, based on different architectures, and even for different recognition tasks. In particular, the transferability across networks with the same architecture is more significant than in other cases. Besides, summing up heterogeneous perturbations often leads to better transfer performance, which provides an effective method of black-box adversarial attack.",
-            "https://arxiv.org/abs/1703.08603",
-            "https://github.com/cihangxie/DAG",
-        )
-
-        add_paper("Detecting Semantic Parts on Partially Occluded Objects",
-            "Jianyu Wang, Cihang Xie, Zhishuai Zhang, Jun Zhu, Lingxi Xie, Alan Yuille",
-            "BMVC, 2017",
-            "https://arxiv.org/abs/1707.07819",
-            "@inproceedings{wang2017voting,<br>" +
-             "&nbsp;&nbsp;&nbsp;title     = {Detecting semantic parts on partially occluded objects},<br>" +
-             "&nbsp;&nbsp;&nbsp;author    = {Wang, Jianyu and Xie, Cihang and Zhang, Zhishuai and Zhu, Jun and Xie, Lingxi and Yuille, Alan},<br>" +
-             "&nbsp;&nbsp;&nbsp;booktitle = {BMVC},<br>" +
-             "&nbsp;&nbsp;&nbsp;year      = {2017}<br>}",
-            "In this paper, we address the task of detecting semantic parts on partially occluded objects. We consider a scenario where the model is trained using non-occluded images but tested on occluded images. The motivation is that there are infinite number of occlusion patterns in real world, which cannot be fully covered in the training data. So the models should be inherently robust and adaptive to occlusions instead of fitting / learning the occlusion patterns in the training data. Our approach detects semantic parts by accumulating the confidence of local visual cues. Specifically, the method uses a simple voting method, based on log-likelihood ratio tests and spatial constraints, to combine the evidence of local cues. These cues are called visual concepts, which are derived by clustering the internal states of deep networks. We evaluate our voting scheme on the VehicleSemanticPart dataset with dense part annotations. We randomly place two, three or four irrelevant objects onto the target object to generate testing images with various occlusions. Experiments show that our algorithm outperforms several competitors in semantic part detection when occlusions are present.",
-            "https://arxiv.org/abs/1707.07819"
-        )
-
-        add_paper("A Fixed- Point Model for Pancreas Segmentation in Abdominal CT Scans",
-            "Yuyin Zhou, Lingxi Xie, Cihang Xie, Wei Shen, Yan Wang, Elliot Fishman, Alan Yuille",
-            "MICCAI, 2017",
-            "https://link.springer.com/chapter/10.1007/978-3-319-66182-7_79",
-            "@inproceedings{zhou2017fixed,<br>" +
-             "&nbsp;&nbsp;&nbsp;title     = {A fixed-point model for pancreas segmentation in abdominal CT scans},<br>" +
-             "&nbsp;&nbsp;&nbsp;author    = {Zhou, Yuyin and Xie, Lingxi and Shen, Wei and Wang, Yan and Fishman, Elliot K and Yuille, Alan},<br>" +
-             "&nbsp;&nbsp;&nbsp;booktitle = {MICCAI},<br>" +
-             "&nbsp;&nbsp;&nbsp;year      = {2017}<br>}",
-            "Deep neural networks have been widely adopted for automatic organ segmentation from abdominal CT scans. However, the segmentation accuracy of some small organs (e.g., the pancreas) is sometimes below satisfaction, arguably because deep networks are easily disrupted by the complex and variable background regions which occupies a large fraction of the input volume. In this paper, we formulate this problem into a fixed-point model which uses a predicted segmentation mask to shrink the input region. This is motivated by the fact that a smaller input region often leads to more accurate segmentation. In the training process, we use the ground-truth annotation to generate accurate input regions and optimize network weights. On the testing stage, we fix the network parameters and update the segmentation results in an iterative manner. We evaluate our approach on the NIH pancreas segmentation dataset, and outperform the state-of-the-art by more than 4%, measured by the average Dice-Sørensen Coefficient (DSC). In addition, we report 62.43% DSC in the worst case, which guarantees the reliability of our approach in clinical applications.",
-            "https://link.springer.com/chapter/10.1007/978-3-319-66182-7_79"
-        )
-
-        add_paper("Deep Supervision for Pancreatic Cyst Segmentation in Abdominal CT Scans",
-            "Yuyin Zhou, Lingxi Xie, Elliot Fishman, Alan Yuille",
-            "MICCAI, 2017",
-            "https://arxiv.org/abs/1706.07346",
-            "@inproceedings{zhou2017deep,<br>" +
-             "&nbsp;&nbsp;&nbsp;title     = {Deep supervision for pancreatic cyst segmentation in abdominal CT scans},<br>" +
-             "&nbsp;&nbsp;&nbsp;author    = {Zhou, Yuyin and Xie, Lingxi and Fishman, Elliot K and Yuille, Alan},<br>" +
-             "&nbsp;&nbsp;&nbsp;booktitle = {MICCAI},<br>" +
-             "&nbsp;&nbsp;&nbsp;year      = {2017}<br>}",
-            "Automatic segmentation of an organ and its cystic region is a prerequisite of computer-aided diagnosis. In this paper, we focus on pancreatic cyst segmentation in abdominal CT scan. This task is important and very useful in clinical practice yet challenging due to the low contrast in boundary, the variability in location, shape and the different stages of the pancreatic cancer. Inspired by the high relevance between the location of a pancreas and its cystic region, we introduce extra deep supervision into the segmentation network, so that cyst segmentation can be improved with the help of relatively easier pancreas segmentation. Under a reasonable transformation function, our approach can be factorized into two stages, and each stage can be efficiently optimized via gradient back-propagation throughout the deep networks. We collect a new dataset with 131 pathological samples, which, to the best of our knowledge, is the largest set for pancreatic cyst segmentation. Without human assistance, our approach reports a 63.44% average accuracy, measured by the Dice-Sørensen coefficient (DSC), which is higher than the number (60.46%) without deep supervision.",
-            "https://arxiv.org/abs/1706.07346"
-        )
-
+        
 </script>
 
 </script>
