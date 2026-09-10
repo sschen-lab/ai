@@ -1043,8 +1043,8 @@ section {
   border-radius: 10px;
 }
 .doctors .member .pic {
-width: 130px;     /* Set your preferred fixed width */
-  height: 130px;    /* Set the same height to make them square/consistent */
+width: 230px;     /* Set your preferred fixed width */
+  height: 230px;    /* Set the same height to make them square/consistent */
   flex-shrink: 0;   /* Prevents the container from shrinking */
   overflow: hidden; /* Clips any overflowing image parts */
 }
